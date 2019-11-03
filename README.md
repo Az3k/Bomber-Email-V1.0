@@ -7,9 +7,9 @@ Use this tool for educational purpose only !!
 # **Usage** 
 
 __LINUX__:    
-Place the file on your **Desktop**  
-Open a Terminal  
-python Bomber-Email.py  
+1. Place the file on your **Desktop**  
+2. Open a Terminal  
+3. python Bomber-Email.py  
 
 After follow instruction.
 
