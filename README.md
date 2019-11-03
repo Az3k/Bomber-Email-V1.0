@@ -3,6 +3,6 @@ Hello !
 This is a Email-Bomber.
 
 
-**Disclamer**
+# **Disclamer**
 I am not responsible for your actions with this tool.
 
