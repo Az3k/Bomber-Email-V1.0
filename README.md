@@ -5,7 +5,7 @@ Version : 1.0
 
 # **Usage** 
 
-__LINUX__
+__LINUX__  
 Place the file on your **Desktop**
 Open a Terminal
 python Bomber-Email.py
