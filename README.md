@@ -1,2 +1,8 @@
 # Bomber-Email-V1.0
-Bomber-Email
+Hello !
+This is a Email-Bomber.
+
+
+**Disclamer**
+I am not responsible for your actions with this tool.
+
