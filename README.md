@@ -1,9 +1,9 @@
 # Bomber-Email-V1.0
-Hello !
+
 This is a Email-Bomber.
 Version : 1.0
 
-# ** Usage ** 
+# **Usage** 
 
 __LINUX__
 Place the file on your **Desktop**
