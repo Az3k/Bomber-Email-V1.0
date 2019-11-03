@@ -1,7 +1,8 @@
 # Bomber-Email-V1.0
 
-This is a Email-Bomber.
-Version : 1.0
+This is a Email-Bomber.  
+Version : 1.0  
+Use this tool for educational purpose only !!  
 
 # **Usage** 
 
