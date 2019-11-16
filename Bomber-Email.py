@@ -11,8 +11,8 @@ class bcolors:
 
 def banner():
     print(bcolors.LightBlue + '+[+[+[ Email-Bomber v1.0 ]+]+]+')
-    print(bcolors.LightBlue + '+[+[+[ made with codes ]+]+]+')
-    print(bcolors.LightBlue + 'Author Azek')
+    print(bcolors.LightBlue + '+[+[+[ Use this tool for educational purpose only !! ]+]+]+')
+    print(bcolors.LightBlue + 'Author : Azek; @Azek_Web')
 
 
 class Email_Bomber:
