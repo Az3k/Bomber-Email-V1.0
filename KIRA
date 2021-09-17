@@ -1,0 +1,50 @@
+```python
+import random
+print("Bienvenue dans un petit programme codé par kira.sh !\nVous aurez seulement 5 tentatives pour trouver le mot de passe qui vous correspond ! Auquel cas, veuillez relancer le programme.")
+tent = 0
+
+
+# Demander le nombre de caractère à l'utilisateur.
+
+longpass = int(input("Combien de caractères voulez-vous dans votre mot de passe ? "))
+S="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#$%&()*+,-./:;<=>?@[]^_`{|}~"
+
+# Regrouper les caractères selectionnés. 
+
+psw="".join(random.sample(S,longpass))
+psw2="".join(random.sample(S,longpass))
+psw3="".join(random.sample(S,longpass))
+psw4="".join(random.sample(S,longpass))
+psw5="".join(random.sample(S,longpass))
+print("Voici votre premier mot de passe : " + psw)
+
+#Boucle pour rechanger le mdp
+var i;
+for(i = 0; i <= 5; i++){
+        x = int(input("Ce mot de passe vous convient-il ?\n- 0 : oui\n- 1 : non \n"))
+        if x == 0:
+            print("Super, voici donc votre mot de passe : " + psw)
+            break
+        elif x == 1:
+            print("Voici votre second mot de passe : " + psw2)
+            int(input("Ce mot de passe vous convient-il ?\n- 0 : oui\n- 1 : non \n"))
+            if x == 0:
+                print("Super, voici donc votre mot de passe : " + psw2)
+                break
+            elif x == 1:
+                print("Voici votre troisième mot de passe : " + psw3)
+                int(input("Ce mot de passe vous convient-il ?\n- 0 : oui\n- 1 : non \n"))
+                if x == 0:
+                    print("Super, voici donc votre mot de passe : " + psw3)
+                    break
+                elif x == 1:
+                    print("Voici votre quatrième mot de passe : " + psw4)
+                    int(input("Ce mot de passe vous convient-il ?\n- 0 : oui\n- 1 : non \n"))
+                    if x == 0:
+                        print("Super, voici donc votre mot de passe : " + psw4)
+                        break
+                    elif x == 1:
+                        print("C'était votre dernière tentative, voici votre nouveau mot de passe : " + psw5)
+                        break
+                        }
+  
